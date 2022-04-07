@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ABC6A3326BA97EB0067C751 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A3226BA97EB0067C751 /* AppDelegate.m */; };
+		4ABC6A3626BA97EB0067C751 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A3526BA97EB0067C751 /* GameViewController.m */; };
+		4ABC6A3926BA97EB0067C751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A3726BA97EB0067C751 /* Main.storyboard */; };
+		4ABC6A3C26BA97EB0067C751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A3A26BA97EB0067C751 /* LaunchScreen.storyboard */; };
+		4ABC6A3F26BA97EB0067C751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A3E26BA97EB0067C751 /* main.m */; };
+		4ABC6A4326BA97EB0067C751 /* firstgame.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4ABC6A4226BA97EB0067C751 /* firstgame.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4ABC6A4926BA97EB0067C751 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A4726BA97EB0067C751 /* Interface.storyboard */; };
+		4ABC6A5026BA97EC0067C751 /* firstgame Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4ABC6A4F26BA97EC0067C751 /* firstgame Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4ABC6A5626BA97EC0067C751 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A5526BA97EC0067C751 /* InterfaceController.m */; };
+		4ABC6A5926BA97EC0067C751 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A5826BA97EC0067C751 /* ExtensionDelegate.m */; };
+		4ABC6A6326BA97EC0067C751 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A6226BA97EC0067C751 /* AppDelegate.m */; };
+		4ABC6A6626BA97EC0067C751 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A6526BA97EC0067C751 /* GameViewController.m */; };
+		4ABC6A6926BA97EC0067C751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A6726BA97EC0067C751 /* Main.storyboard */; };
+		4ABC6A6C26BA97EC0067C751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A6A26BA97EC0067C751 /* LaunchScreen.storyboard */; };
+		4ABC6A6F26BA97EC0067C751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A6E26BA97EC0067C751 /* main.m */; };
+		4ABC6A7826BA97EC0067C751 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A7726BA97EC0067C751 /* AppDelegate.m */; };
+		4ABC6A7B26BA97EC0067C751 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A7A26BA97EC0067C751 /* GameViewController.m */; };
+		4ABC6A7E26BA97EC0067C751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A7C26BA97EC0067C751 /* Main.storyboard */; };
+		4ABC6A8126BA97EC0067C751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A8026BA97EC0067C751 /* main.m */; };
+		4ABC6A8326BA97EC0067C751 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A2726BA97DC0067C751 /* GameController.m */; };
+		4ABC6A8426BA97EC0067C751 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A2726BA97DC0067C751 /* GameController.m */; };
+		4ABC6A8526BA97EC0067C751 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A2726BA97DC0067C751 /* GameController.m */; };
+		4ABC6A8626BA97EC0067C751 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6A2726BA97DC0067C751 /* GameController.m */; };
+		4ABC6A8726BA97EC0067C751 /* Art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A2826BA97DC0067C751 /* Art.scnassets */; };
+		4ABC6A8826BA97EC0067C751 /* Art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A2826BA97DC0067C751 /* Art.scnassets */; };
+		4ABC6A8926BA97EC0067C751 /* Art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A2826BA97DC0067C751 /* Art.scnassets */; };
+		4ABC6A8A26BA97EC0067C751 /* Art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A2826BA97DC0067C751 /* Art.scnassets */; };
+		4ABC6A8B26BA97EC0067C751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A2926BA97EB0067C751 /* Assets.xcassets */; };
+		4ABC6A8C26BA97EC0067C751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A2926BA97EB0067C751 /* Assets.xcassets */; };
+		4ABC6A8D26BA97EC0067C751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A2926BA97EB0067C751 /* Assets.xcassets */; };
+		4ABC6A8E26BA97EC0067C751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6A2926BA97EB0067C751 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ABC6A4426BA97EB0067C751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ABC6A2126BA97DC0067C751 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ABC6A4126BA97EB0067C751;
+			remoteInfo = "firstgame watchOS App";
+		};
+		4ABC6A5126BA97EC0067C751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ABC6A2126BA97DC0067C751 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ABC6A4E26BA97EC0067C751;
+			remoteInfo = "firstgame watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4ABC6A9426BA97EC0067C751 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4ABC6A5026BA97EC0067C751 /* firstgame Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC6A9826BA97EC0067C751 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4ABC6A4326BA97EB0067C751 /* firstgame.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4ABC6A2626BA97DC0067C751 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		4ABC6A2726BA97DC0067C751 /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		4ABC6A2826BA97DC0067C751 /* Art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Art.scnassets; sourceTree = "<group>"; };
+		4ABC6A2926BA97EB0067C751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ABC6A2E26BA97EB0067C751 /* firstgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABC6A3126BA97EB0067C751 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ABC6A3226BA97EB0067C751 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4ABC6A3426BA97EB0067C751 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		4ABC6A3526BA97EB0067C751 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		4ABC6A3826BA97EB0067C751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ABC6A3B26BA97EB0067C751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ABC6A3D26BA97EB0067C751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABC6A3E26BA97EB0067C751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ABC6A4226BA97EB0067C751 /* firstgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABC6A4826BA97EB0067C751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4ABC6A4A26BA97EB0067C751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABC6A4F26BA97EC0067C751 /* firstgame Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "firstgame Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABC6A5426BA97EC0067C751 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		4ABC6A5526BA97EC0067C751 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		4ABC6A5726BA97EC0067C751 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		4ABC6A5826BA97EC0067C751 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		4ABC6A5A26BA97EC0067C751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABC6A5F26BA97EC0067C751 /* firstgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABC6A6126BA97EC0067C751 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ABC6A6226BA97EC0067C751 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4ABC6A6426BA97EC0067C751 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		4ABC6A6526BA97EC0067C751 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		4ABC6A6826BA97EC0067C751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ABC6A6B26BA97EC0067C751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ABC6A6D26BA97EC0067C751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABC6A6E26BA97EC0067C751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ABC6A7426BA97EC0067C751 /* firstgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABC6A7626BA97EC0067C751 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ABC6A7726BA97EC0067C751 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4ABC6A7926BA97EC0067C751 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		4ABC6A7A26BA97EC0067C751 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		4ABC6A7D26BA97EC0067C751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ABC6A7F26BA97EC0067C751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABC6A8026BA97EC0067C751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ABC6A8226BA97EC0067C751 /* firstgame_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = firstgame_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ABC6A2B26BA97EB0067C751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC6A4C26BA97EC0067C751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC6A5C26BA97EC0067C751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC6A7126BA97EC0067C751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ABC6A2026BA97DC0067C751 = {
+			isa = PBXGroup;
+			children = (
+				4ABC6A2526BA97DC0067C751 /* firstgame Shared */,
+				4ABC6A3026BA97EB0067C751 /* firstgame iOS */,
+				4ABC6A4626BA97EB0067C751 /* firstgame watchOS App */,
+				4ABC6A5326BA97EC0067C751 /* firstgame watchOS App Extension */,
+				4ABC6A6026BA97EC0067C751 /* firstgame tvOS */,
+				4ABC6A7526BA97EC0067C751 /* firstgame macOS */,
+				4ABC6A2F26BA97EB0067C751 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ABC6A2526BA97DC0067C751 /* firstgame Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC6A2626BA97DC0067C751 /* GameController.h */,
+				4ABC6A2726BA97DC0067C751 /* GameController.m */,
+				4ABC6A2826BA97DC0067C751 /* Art.scnassets */,
+				4ABC6A2926BA97EB0067C751 /* Assets.xcassets */,
+			);
+			path = "firstgame Shared";
+			sourceTree = "<group>";
+		};
+		4ABC6A2F26BA97EB0067C751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC6A2E26BA97EB0067C751 /* firstgame.app */,
+				4ABC6A4226BA97EB0067C751 /* firstgame.app */,
+				4ABC6A4F26BA97EC0067C751 /* firstgame Extension.appex */,
+				4ABC6A5F26BA97EC0067C751 /* firstgame.app */,
+				4ABC6A7426BA97EC0067C751 /* firstgame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ABC6A3026BA97EB0067C751 /* firstgame iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC6A3126BA97EB0067C751 /* AppDelegate.h */,
+				4ABC6A3226BA97EB0067C751 /* AppDelegate.m */,
+				4ABC6A3426BA97EB0067C751 /* GameViewController.h */,
+				4ABC6A3526BA97EB0067C751 /* GameViewController.m */,
+				4ABC6A3726BA97EB0067C751 /* Main.storyboard */,
+				4ABC6A3A26BA97EB0067C751 /* LaunchScreen.storyboard */,
+				4ABC6A3D26BA97EB0067C751 /* Info.plist */,
+				4ABC6A3E26BA97EB0067C751 /* main.m */,
+			);
+			path = "firstgame iOS";
+			sourceTree = "<group>";
+		};
+		4ABC6A4626BA97EB0067C751 /* firstgame watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC6A4726BA97EB0067C751 /* Interface.storyboard */,
+				4ABC6A4A26BA97EB0067C751 /* Info.plist */,
+			);
+			path = "firstgame watchOS App";
+			sourceTree = "<group>";
+		};
+		4ABC6A5326BA97EC0067C751 /* firstgame watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC6A5426BA97EC0067C751 /* InterfaceController.h */,
+				4ABC6A5526BA97EC0067C751 /* InterfaceController.m */,
+				4ABC6A5726BA97EC0067C751 /* ExtensionDelegate.h */,
+				4ABC6A5826BA97EC0067C751 /* ExtensionDelegate.m */,
+				4ABC6A5A26BA97EC0067C751 /* Info.plist */,
+			);
+			path = "firstgame watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		4ABC6A6026BA97EC0067C751 /* firstgame tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC6A6126BA97EC0067C751 /* AppDelegate.h */,
+				4ABC6A6226BA97EC0067C751 /* AppDelegate.m */,
+				4ABC6A6426BA97EC0067C751 /* GameViewController.h */,
+				4ABC6A6526BA97EC0067C751 /* GameViewController.m */,
+				4ABC6A6726BA97EC0067C751 /* Main.storyboard */,
+				4ABC6A6A26BA97EC0067C751 /* LaunchScreen.storyboard */,
+				4ABC6A6D26BA97EC0067C751 /* Info.plist */,
+				4ABC6A6E26BA97EC0067C751 /* main.m */,
+			);
+			path = "firstgame tvOS";
+			sourceTree = "<group>";
+		};
+		4ABC6A7526BA97EC0067C751 /* firstgame macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC6A7626BA97EC0067C751 /* AppDelegate.h */,
+				4ABC6A7726BA97EC0067C751 /* AppDelegate.m */,
+				4ABC6A7926BA97EC0067C751 /* GameViewController.h */,
+				4ABC6A7A26BA97EC0067C751 /* GameViewController.m */,
+				4ABC6A7C26BA97EC0067C751 /* Main.storyboard */,
+				4ABC6A7F26BA97EC0067C751 /* Info.plist */,
+				4ABC6A8026BA97EC0067C751 /* main.m */,
+				4ABC6A8226BA97EC0067C751 /* firstgame_macOS.entitlements */,
+			);
+			path = "firstgame macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ABC6A2D26BA97EB0067C751 /* firstgame iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABC6A9926BA97EC0067C751 /* Build configuration list for PBXNativeTarget "firstgame iOS" */;
+			buildPhases = (
+				4ABC6A2A26BA97EB0067C751 /* Sources */,
+				4ABC6A2B26BA97EB0067C751 /* Frameworks */,
+				4ABC6A2C26BA97EB0067C751 /* Resources */,
+				4ABC6A9826BA97EC0067C751 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABC6A4526BA97EB0067C751 /* PBXTargetDependency */,
+			);
+			name = "firstgame iOS";
+			productName = "firstgame iOS";
+			productReference = 4ABC6A2E26BA97EB0067C751 /* firstgame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ABC6A4126BA97EB0067C751 /* firstgame watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABC6A9526BA97EC0067C751 /* Build configuration list for PBXNativeTarget "firstgame watchOS App" */;
+			buildPhases = (
+				4ABC6A4026BA97EB0067C751 /* Resources */,
+				4ABC6A9426BA97EC0067C751 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABC6A5226BA97EC0067C751 /* PBXTargetDependency */,
+			);
+			name = "firstgame watchOS App";
+			productName = "firstgame watchOS App";
+			productReference = 4ABC6A4226BA97EB0067C751 /* firstgame.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4ABC6A4E26BA97EC0067C751 /* firstgame watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABC6A9126BA97EC0067C751 /* Build configuration list for PBXNativeTarget "firstgame watchOS App Extension" */;
+			buildPhases = (
+				4ABC6A4B26BA97EC0067C751 /* Sources */,
+				4ABC6A4C26BA97EC0067C751 /* Frameworks */,
+				4ABC6A4D26BA97EC0067C751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "firstgame watchOS App Extension";
+			productName = "firstgame watchOS App Extension";
+			productReference = 4ABC6A4F26BA97EC0067C751 /* firstgame Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		4ABC6A5E26BA97EC0067C751 /* firstgame tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABC6A9C26BA97EC0067C751 /* Build configuration list for PBXNativeTarget "firstgame tvOS" */;
+			buildPhases = (
+				4ABC6A5B26BA97EC0067C751 /* Sources */,
+				4ABC6A5C26BA97EC0067C751 /* Frameworks */,
+				4ABC6A5D26BA97EC0067C751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "firstgame tvOS";
+			productName = "firstgame tvOS";
+			productReference = 4ABC6A5F26BA97EC0067C751 /* firstgame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ABC6A7326BA97EC0067C751 /* firstgame macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABC6A9F26BA97EC0067C751 /* Build configuration list for PBXNativeTarget "firstgame macOS" */;
+			buildPhases = (
+				4ABC6A7026BA97EC0067C751 /* Sources */,
+				4ABC6A7126BA97EC0067C751 /* Frameworks */,
+				4ABC6A7226BA97EC0067C751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "firstgame macOS";
+			productName = "firstgame macOS";
+			productReference = 4ABC6A7426BA97EC0067C751 /* firstgame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ABC6A2126BA97DC0067C751 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					4ABC6A2D26BA97EB0067C751 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					4ABC6A4126BA97EB0067C751 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					4ABC6A4E26BA97EC0067C751 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					4ABC6A5E26BA97EC0067C751 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					4ABC6A7326BA97EC0067C751 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 4ABC6A2426BA97DC0067C751 /* Build configuration list for PBXProject "firstgame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ABC6A2026BA97DC0067C751;
+			productRefGroup = 4ABC6A2F26BA97EB0067C751 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ABC6A2D26BA97EB0067C751 /* firstgame iOS */,
+				4ABC6A4126BA97EB0067C751 /* firstgame watchOS App */,
+				4ABC6A4E26BA97EC0067C751 /* firstgame watchOS App Extension */,
+				4ABC6A5E26BA97EC0067C751 /* firstgame tvOS */,
+				4ABC6A7326BA97EC0067C751 /* firstgame macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ABC6A2C26BA97EB0067C751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC6A3926BA97EB0067C751 /* Main.storyboard in Resources */,
+				4ABC6A3C26BA97EB0067C751 /* LaunchScreen.storyboard in Resources */,
+				4ABC6A8B26BA97EC0067C751 /* Assets.xcassets in Resources */,
+				4ABC6A8726BA97EC0067C751 /* Art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC6A4026BA97EB0067C751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC6A8C26BA97EC0067C751 /* Assets.xcassets in Resources */,
+				4ABC6A4926BA97EB0067C751 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC6A4D26BA97EC0067C751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC6A8826BA97EC0067C751 /* Art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC6A5D26BA97EC0067C751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC6A6926BA97EC0067C751 /* Main.storyboard in Resources */,
+				4ABC6A6C26BA97EC0067C751 /* LaunchScreen.storyboard in Resources */,
+				4ABC6A8D26BA97EC0067C751 /* Assets.xcassets in Resources */,
+				4ABC6A8926BA97EC0067C751 /* Art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC6A7226BA97EC0067C751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC6A7E26BA97EC0067C751 /* Main.storyboard in Resources */,
+				4ABC6A8E26BA97EC0067C751 /* Assets.xcassets in Resources */,
+				4ABC6A8A26BA97EC0067C751 /* Art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ABC6A2A26BA97EB0067C751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC6A3626BA97EB0067C751 /* GameViewController.m in Sources */,
+				4ABC6A8326BA97EC0067C751 /* GameController.m in Sources */,
+				4ABC6A3F26BA97EB0067C751 /* main.m in Sources */,
+				4ABC6A3326BA97EB0067C751 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC6A4B26BA97EC0067C751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC6A8426BA97EC0067C751 /* GameController.m in Sources */,
+				4ABC6A5926BA97EC0067C751 /* ExtensionDelegate.m in Sources */,
+				4ABC6A5626BA97EC0067C751 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC6A5B26BA97EC0067C751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC6A6626BA97EC0067C751 /* GameViewController.m in Sources */,
+				4ABC6A8526BA97EC0067C751 /* GameController.m in Sources */,
+				4ABC6A6F26BA97EC0067C751 /* main.m in Sources */,
+				4ABC6A6326BA97EC0067C751 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC6A7026BA97EC0067C751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC6A7B26BA97EC0067C751 /* GameViewController.m in Sources */,
+				4ABC6A8626BA97EC0067C751 /* GameController.m in Sources */,
+				4ABC6A8126BA97EC0067C751 /* main.m in Sources */,
+				4ABC6A7826BA97EC0067C751 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ABC6A4526BA97EB0067C751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ABC6A4126BA97EB0067C751 /* firstgame watchOS App */;
+			targetProxy = 4ABC6A4426BA97EB0067C751 /* PBXContainerItemProxy */;
+		};
+		4ABC6A5226BA97EC0067C751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ABC6A4E26BA97EC0067C751 /* firstgame watchOS App Extension */;
+			targetProxy = 4ABC6A5126BA97EC0067C751 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ABC6A3726BA97EB0067C751 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ABC6A3826BA97EB0067C751 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ABC6A3A26BA97EB0067C751 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ABC6A3B26BA97EB0067C751 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4ABC6A4726BA97EB0067C751 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ABC6A4826BA97EB0067C751 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		4ABC6A6726BA97EC0067C751 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ABC6A6826BA97EC0067C751 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ABC6A6A26BA97EC0067C751 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ABC6A6B26BA97EC0067C751 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4ABC6A7C26BA97EC0067C751 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ABC6A7D26BA97EC0067C751 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ABC6A8F26BA97EC0067C751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		4ABC6A9026BA97EC0067C751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		4ABC6A9226BA97EC0067C751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "firstgame watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thetruetae.firstgame.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "firstgame Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		4ABC6A9326BA97EC0067C751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "firstgame watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thetruetae.firstgame.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "firstgame Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		4ABC6A9626BA97EC0067C751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = firstgame_Extension;
+				INFOPLIST_FILE = "firstgame watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = thetruetae.firstgame.watchkitapp;
+				PRODUCT_NAME = firstgame;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		4ABC6A9726BA97EC0067C751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = firstgame_Extension;
+				INFOPLIST_FILE = "firstgame watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = thetruetae.firstgame.watchkitapp;
+				PRODUCT_NAME = firstgame;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		4ABC6A9A26BA97EC0067C751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "firstgame iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thetruetae.firstgame;
+				PRODUCT_NAME = firstgame;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ABC6A9B26BA97EC0067C751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "firstgame iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thetruetae.firstgame;
+				PRODUCT_NAME = firstgame;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ABC6A9D26BA97EC0067C751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "firstgame tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thetruetae.firstgame;
+				PRODUCT_NAME = firstgame;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Debug;
+		};
+		4ABC6A9E26BA97EC0067C751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "firstgame tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thetruetae.firstgame;
+				PRODUCT_NAME = firstgame;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ABC6AA026BA97EC0067C751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "firstgame macOS/firstgame_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "firstgame macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = thetruetae.firstgame;
+				PRODUCT_NAME = firstgame;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4ABC6AA126BA97EC0067C751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "firstgame macOS/firstgame_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "firstgame macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = thetruetae.firstgame;
+				PRODUCT_NAME = firstgame;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ABC6A2426BA97DC0067C751 /* Build configuration list for PBXProject "firstgame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABC6A8F26BA97EC0067C751 /* Debug */,
+				4ABC6A9026BA97EC0067C751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABC6A9126BA97EC0067C751 /* Build configuration list for PBXNativeTarget "firstgame watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABC6A9226BA97EC0067C751 /* Debug */,
+				4ABC6A9326BA97EC0067C751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABC6A9526BA97EC0067C751 /* Build configuration list for PBXNativeTarget "firstgame watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABC6A9626BA97EC0067C751 /* Debug */,
+				4ABC6A9726BA97EC0067C751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABC6A9926BA97EC0067C751 /* Build configuration list for PBXNativeTarget "firstgame iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABC6A9A26BA97EC0067C751 /* Debug */,
+				4ABC6A9B26BA97EC0067C751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABC6A9C26BA97EC0067C751 /* Build configuration list for PBXNativeTarget "firstgame tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABC6A9D26BA97EC0067C751 /* Debug */,
+				4ABC6A9E26BA97EC0067C751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABC6A9F26BA97EC0067C751 /* Build configuration list for PBXNativeTarget "firstgame macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABC6AA026BA97EC0067C751 /* Debug */,
+				4ABC6AA126BA97EC0067C751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ABC6A2126BA97DC0067C751 /* Project object */;
+}
